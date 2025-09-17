@@ -1,0 +1,17 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 20px;
+  color: var(--color-blue);
+  background-color: var(--color-transparent);
+  border: none;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
+}
+
+.btn__solid {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+}

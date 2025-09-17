@@ -1,13 +1,12 @@
-.nav{
-
+.nav {
 }
 
-.nav__list{
-    display: flex;
-    gap: 24px;
-    color: var(--color-black);
+.nav__list {
+  display: flex;
+  gap: 24px;
+  color: var(--color-black);
 }
 
-.nav__link{
-    text-decoration: underline;
+.nav__link:hover {
+  text-decoration: underline;
 }

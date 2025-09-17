@@ -1,7 +1,22 @@
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 36px;
   padding-top: 19px;
   padding-bottom: 19px;
+}
+
+.header__logo {
+  margin-right: 36px;
+}
+
+.logo__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row__header__btn {
+  display: flex;
+  gap: 11px;
 }
