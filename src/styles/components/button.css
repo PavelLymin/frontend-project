@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.button--header {
+.button__header {
   margin-left: 31px;
   padding: 6px 20px;
   font-size: 15px;
@@ -19,7 +19,7 @@
   letter-spacing: 0.2px;
 }
 
-.button--bunner {
+.button__bunner {
   margin-right: 24px;
   padding: 8px 32px;
   font-size: 17px;

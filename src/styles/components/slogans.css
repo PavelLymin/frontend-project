@@ -1,0 +1,38 @@
+.slogans {
+  margin-bottom: 120px;
+}
+
+.slogans__list {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.slogans__item {
+  padding: 32px;
+}
+
+.slogan__fast {
+  background-color: var(--color-yellow);
+}
+
+.slogan__money {
+  background-color: var(--color-ligth_blue);
+}
+
+.slogan__safe {
+  background-color: var(--color-light_pink);
+}
+
+.slogans__title {
+  font-size: 25px;
+  letter-spacing: 0.2px;
+  margin-top: 8px;
+  margin-bottom: 11px;
+}
+
+.slogans__text {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}

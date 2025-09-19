@@ -1,0 +1,35 @@
+.features {
+  background-color: var(--color-light_grey);
+}
+
+.features__title {
+  font-size: 42px;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  margin-top: 79px;
+}
+
+.features__list {
+  width: 80%;
+}
+.features__item {
+  border-bottom: 1px solid #c2cdd8;
+  border-top: 1px solid #c2cdd8;
+  align-items: start;
+  margin-bottom: 5px;
+  padding: 20px 0;
+}
+
+.button {
+  border: 0px;
+  font-size: 21px;
+  font-family: 'Inter';
+  cursor: pointer;
+}
+
+.expander {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  order: 3;
+}
