@@ -1,17 +1,28 @@
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 20px;
+.button__outlined {
   color: var(--color-blue);
-  background-color: var(--color-transparent);
-  border: none;
-  transition:
-    color 150ms linear,
-    background-color 150ms linear;
+  border: 0px;
+  cursor: pointer;
 }
 
-.btn__solid {
+.button__solid {
   color: var(--color-white);
   background-color: var(--color-blue);
+  border: 0px;
+  cursor: pointer;
+}
+
+.button--header {
+  margin-left: 31px;
+  padding: 6px 20px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.button--bunner {
+  margin-right: 24px;
+  padding: 8px 32px;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
 }

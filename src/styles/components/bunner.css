@@ -1,0 +1,28 @@
+.bunner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 130px;
+}
+
+.title {
+  font-family: 'Fraunces';
+  color: #1f1f1f;
+  font-weight: 400;
+}
+
+.about__title {
+  font-size: 58px;
+  line-height: 64px;
+  max-width: 485px;
+}
+
+.about__text {
+  margin-top: 21px;
+  margin-bottom: 30px;
+  max-width: 350px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
