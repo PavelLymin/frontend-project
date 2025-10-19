@@ -1,0 +1,42 @@
+.get-start {
+  padding-top: 88px;
+}
+
+.get-start__bunner {
+  background-color: var(--color-ligth-blue);
+  padding: 64px 0 48px 64px;
+}
+
+.get-start__content {
+  max-width: 500px;
+}
+
+.get-start__title {
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+
+.get-start__text {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  margin-top: 21px;
+  margin-bottom: 33px;
+}
+
+.get-start__pricing {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.get-start__plan {
+  color: var(--color-disable);
+  gap: 3px;
+}
+
+.get-start__plan::before {
+  content: url('/public/images/mark.svg');
+}

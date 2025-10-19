@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-/* @media (--sm-viewport) {
+@media (--sm-viewport) {
   .container {
     max-width: 576px;
   }
@@ -30,4 +30,4 @@
     max-width: 1130px;
     box-sizing: content-box;
   }
-} */
+}

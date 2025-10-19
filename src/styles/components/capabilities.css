@@ -1,0 +1,47 @@
+.capabilities {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.capabilities__title {
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  margin-bottom: 21px;
+}
+
+.capabilities__text {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  max-width: 640px;
+}
+
+.capabilities__list {
+  display: flex;
+  margin-top: 68px;
+  justify-content: space-between;
+}
+
+.capabilities__item {
+  max-width: 235px;
+}
+
+.capabilities__item-img {
+  height: 55px;
+  width: auto;
+}
+
+.capabilities__item-title {
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: 0.2px;
+  margin-top: 8px;
+  margin-bottom: 11px;
+}
+
+.capabilities__item-text {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}

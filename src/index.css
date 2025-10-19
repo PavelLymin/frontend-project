@@ -7,9 +7,15 @@
 @import './styles/components/nav.css';
 @import './styles/components/header.css';
 @import './styles/components/button.css';
-@import './styles/components/content.css';
 @import './styles/components/bunner.css';
 @import './styles/components/partners.css';
-@import './styles/components/text.css';
 @import './styles/components/slogans.css';
 @import './styles/components/features.css';
+@import './styles/components/subline.css';
+@import './styles/components/auth.css';
+@import './styles/components/benefits.css';
+@import './styles/components/offer.css';
+@import './styles/components/capabilities.css';
+@import './styles/components/blog-news.css';
+@import './styles/components/get-start.css';
+@import './styles/components/footer.css';

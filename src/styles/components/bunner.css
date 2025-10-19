@@ -2,21 +2,50 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 70px;
-  margin-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 130px;
 }
 
-.about__title {
+.banner__actions {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.bunner__button-book {
+  background-color: var(--color-blue);
+  padding: 8px 32px;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  line-height: 27px;
+  border: 0;
+  color: var(--color-white);
+}
+
+.bunner__button-learn {
+  padding: 8px;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  line-height: 27px;
+  border: 0;
+  color: var(--color-blue);
+}
+
+.banner__title {
   font-size: 58px;
   line-height: 64px;
   max-width: 485px;
 }
 
-.about__text {
+.banner__text {
   margin-top: 21px;
   margin-bottom: 30px;
   max-width: 350px;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.2px;
+}
+
+.bunner__image {
+  object-fit: cover;
 }

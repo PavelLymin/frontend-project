@@ -1,0 +1,12 @@
+.subline {
+  height: 1px;
+  background: var(--color-line);
+  width: 100%;
+}
+
+.double-subline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

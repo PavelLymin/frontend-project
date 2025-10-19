@@ -1,0 +1,102 @@
+.footer {
+  padding-top: 127px;
+  padding-bottom: 32px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.footer__info-logo {
+  margin-bottom: 20px;
+}
+
+.footer__info-text {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.footer__link {
+  color: var(--color-blue);
+}
+
+.footer__action {
+  display: flex;
+  gap: 100px;
+}
+
+.footer__nav-common {
+  display: flex;
+  gap: 100px;
+}
+
+.footer__nav-item {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--color-disable);
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.footer__nav-link:hover {
+  text-decoration: underline;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.footer__signup-title {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.footer__signup-text {
+  margin-top: 14px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.footer__input {
+  border: none;
+  border-bottom: 1px solid var(--color-disable);
+  flex-grow: 1;
+}
+
+.footer__input:focus {
+  outline: none;
+}
+
+.footer__signup {
+  max-width: 216px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.footer__social-button {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__button {
+  border: 0;
+}
