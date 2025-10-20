@@ -1,12 +1,23 @@
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-top: 19px;
   padding-bottom: 19px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .header__logo {
   margin-right: 36px;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+@media (--sm-viewport) {
+  .header__hamburger {
+    display: block;
+  }
 }

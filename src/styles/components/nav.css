@@ -22,3 +22,13 @@
 .nav__link:hover {
   text-decoration: underline;
 }
+
+.header__hamburger {
+  display: block;
+}
+
+@media (--sm-viewport) {
+  .nav__list {
+    display: none;
+  }
+}

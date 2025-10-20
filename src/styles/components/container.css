@@ -1,33 +1,30 @@
 .container {
-  max-width: 1130px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  max-width: 1130px;
 }
 
-@media (--sm-viewport) {
+@media (--xl-viewport) {
   .container {
-    max-width: 576px;
+    padding: 0 64px;
   }
 }
 
 @media (--md-viewport) {
   .container {
-    max-width: 768px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 40px;
   }
 }
 
-@media (--lg-viewport) {
+@media (--sm-viewport) {
   .container {
-    max-width: 1024px;
+    padding: 0 24px;
   }
 }
 
-@media (--xl-viewport) {
+@media (--xs-viewport) {
   .container {
-    max-width: 1130px;
-    box-sizing: content-box;
+    padding: 0 12px;
   }
 }
