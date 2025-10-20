@@ -1,3 +1,5 @@
+import './index.css';
+
 document.addEventListener('DOMContentLoaded', function () {
   const itemTitles = document.querySelectorAll('.features__item-heading');
 
@@ -6,5 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
       const parentItem = title.closest('.features__item');
       parentItem.classList.toggle('features__item--open');
     });
+  });
+
+  const menu = document.querySelector('.mobile-menu__inner');
+
+  document.querySelector('.js-menu-active').addEventListener('click', () => {
+    menu.classList.toggle('mobile-menu__inner--active');
   });
 });

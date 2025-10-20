@@ -1,8 +1,9 @@
 .auth {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 11px;
   font-family: var(--font-primary);
+  justify-content: center;
 }
 
 .auth__signin {

@@ -7,11 +7,13 @@
   padding-top: 80px;
   padding-bottom: 80px;
   gap: 187px;
+  align-items: center;
 }
 
 .offer__media {
   width: 382px;
   height: 374px;
+  flex-shrink: 0;
 }
 
 .offer__content {
@@ -48,4 +50,138 @@
 .offer__item::before {
   content: url('/public/images/check.svg');
   margin-right: 6px;
+}
+
+@media (--xl-viewport) {
+  .offer__row {
+    gap: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .offer__media {
+    width: 320px;
+    height: 314px;
+  }
+
+  .offer__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .offer__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (--md-viewport) {
+  .offer__row {
+    gap: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .offer__media {
+    width: 280px;
+    height: 274px;
+  }
+
+  .offer__title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .offer__text {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+  }
+
+  .offer__item {
+    font-size: 15px;
+  }
+}
+
+@media (--sm-viewport) {
+  .offer__row {
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .offer__media {
+    width: 250px;
+    height: 245px;
+    order: -1;
+  }
+
+  .offer__content {
+    max-width: 100%;
+  }
+
+  .offer__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .offer__text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .offer__list {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .offer__item {
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .offer__content .auth__book {
+    padding: 10px 24px;
+    font-size: 16px;
+  }
+}
+
+@media (--xs-viewport) {
+  .offer__row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 30px;
+  }
+
+  .offer__media {
+    width: 200px;
+    height: 196px;
+  }
+
+  .offer__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .offer__text {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+
+  .offer__item {
+    font-size: 13px;
+  }
+
+  .offer__content .auth__book {
+    padding: 8px 20px;
+    font-size: 15px;
+  }
 }
