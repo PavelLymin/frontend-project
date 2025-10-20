@@ -1,6 +1,7 @@
 .footer {
   padding-top: 127px;
   padding-bottom: 32px;
+  font-family: var(--font-primary);
 }
 
 .footer__wrapper {
@@ -37,7 +38,7 @@
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0.2px;
-  color: var(--color-disable);
+  color: var(--color-footer-nav-item);
 }
 
 .footer__nav-list {

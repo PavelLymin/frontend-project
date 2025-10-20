@@ -1,6 +1,27 @@
 body {
+  font-family: var(--font-secondary);
   background-color: var(--color-primary);
-  color: var(--color-black);
+  color: var(--color-secondary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: var(--font-primary);
+}
+
+li {
+  font-family: var(--font-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+}
+
+a {
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-family: var(--font-secondary);
 }

@@ -1,5 +1,5 @@
 .blog-news {
-  background-color: var(--color-light-grey);
+  background-color: var(--color-section);
 }
 
 .blog-news__content {
@@ -32,7 +32,7 @@
 }
 
 .blog-news__item {
-  background-color: var(--color-white);
+  background-color: var(--color-card);
 }
 
 .blog-news__item-img {

@@ -10,7 +10,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  color: var(--color-black);
+  font-family: var(--font-primary);
 }
 
 .nav__link {

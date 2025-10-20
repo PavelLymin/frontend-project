@@ -5,9 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whirl</title>
+    <link rel="stylesheet" href="./src/styles/global/fonts.css" />
     <link rel="stylesheet" href="./src/index.css" />
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
+    </style>
+    <style media="(prefers-color-scheme: dark)">
+      @import url('./src/styles/colors/dark.css');
     </style>
   </head>
   <body>
@@ -371,7 +375,7 @@
                   </div>
                 </nav>
                 <div class="footer__signup">
-                  <h3 class="footer__signup-title">Newsletter</h3>
+                  <div class="footer__signup-title">Newsletter</div>
                   <p class="footer__signup-text">Sign up for the latest news, company insights, and Whirl updates.</p>
                   <form action="" class="footer__form">
                     <input class="footer__input" placeholder="Your email" type="email" />

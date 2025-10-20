@@ -1,6 +1,11 @@
-:root {
-  color-scheme: light;
-
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --color-primary: var(--color-white);
+    --color-secondary: var(--color-black);
+    --color-section: var(--color-light-grey);
+    --color-section-text: var(--color-disable);
+    --color-card: var(--color-white);
+    --color-footer-nav-item: var(--color-disable);
+  }
 }

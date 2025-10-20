@@ -9,6 +9,7 @@
 
 .get-start__content {
   max-width: 500px;
+  color: var(--color-black);
 }
 
 .get-start__title {

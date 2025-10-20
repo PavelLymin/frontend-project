@@ -1,5 +1,5 @@
 .features {
-  background-color: var(--color-light-grey);
+  background-color: var(--color-section);
   padding: 80px 0;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .features__item-heading {
-  color: var(--color-disable);
+  color: var(--color-section-text);
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -94,10 +94,11 @@
 }
 
 .features__item--open .features__item-heading {
-  color: var(--color-black);
+  color: var(--color-section-text);
 }
 
 .features__text {
+  color: var(--color-section-text);
   max-height: 0;
   overflow: hidden;
 }

@@ -1,5 +1,6 @@
 .slogans {
   padding-bottom: 120px;
+  color: var(--color-black);
 }
 
 .slogans__list {
