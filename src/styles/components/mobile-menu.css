@@ -23,7 +23,7 @@
   display: none;
 }
 
-@media (--xs-viewport) {
+@media (--sm-viewport) {
   .mobile-menu {
     display: block;
   }
