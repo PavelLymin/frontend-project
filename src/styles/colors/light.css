@@ -1,6 +1,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
+
     --color-primary: var(--color-white);
     --color-secondary: var(--color-black);
     --color-section: var(--color-light-grey);

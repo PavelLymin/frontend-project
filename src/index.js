@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const menu = document.querySelector('.mobile-menu__inner');
 
   document.querySelector('.js-menu-active').addEventListener('click', () => {
+    console.log('tap');
     menu.classList.toggle('mobile-menu__inner--active');
   });
 });
